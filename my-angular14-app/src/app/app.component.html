@@ -1,1 +1,9 @@
 <app-counter></app-counter>
+
+<app-user-card
+  name="Alice"
+  role="Frontend Developer"
+  [isActive]="true"
+  (cardClicked)="onCardClicked($event)"
+>
+</app-user-card>
